@@ -1,0 +1,7 @@
+# output_id,output_amount,name_key,description_key,material_id,material_amount[,material_id,material_amount...]
+mc_stick,4,recipe_sticks_name,recipe_sticks_desc,mc_oak_planks,2
+mc_crafting_table,1,recipe_crafting_table_name,recipe_crafting_table_desc,mc_oak_planks,4
+mc_stone_pickaxe,1,recipe_stone_pickaxe_name,recipe_stone_pickaxe_desc,mc_cobblestone,3,mc_stick,2
+mc_furnace,1,recipe_furnace_name,recipe_furnace_desc,mc_cobblestone,8
+mc_iron_pickaxe,1,recipe_iron_pickaxe_name,recipe_iron_pickaxe_desc,mc_iron_ingot,3,mc_stick,2
+mc_diamond_pickaxe,1,recipe_diamond_pickaxe_name,recipe_diamond_pickaxe_desc,mc_diamond,3,mc_stick,2

@@ -1,0 +1,4 @@
+# input_id,output_id
+mc_raw_copper,mc_copper_ingot
+mc_raw_iron,mc_iron_ingot
+mc_raw_gold,mc_gold_ingot

@@ -1,0 +1,60 @@
+{
+  "tables": [
+    {
+      "id": "minecraft_crossing.mine_stone",
+      "entries": [
+        { "id": "mc_coal", "weight": 300 },
+        { "id": "mc_charcoal", "weight": 120 },
+        { "id": "mc_cobblestone", "weight": 180 },
+        { "id": "mc_oak_planks", "weight": 90 },
+        { "id": "mc_stick", "weight": 90 },
+        { "id": "mc_raw_copper", "weight": 260 },
+        { "id": "mc_raw_iron", "weight": 180 },
+        { "id": "mc_raw_gold", "weight": 50 },
+        { "id": "mc_copper_ingot", "weight": 50 },
+        { "id": "mc_lapis_lazuli", "weight": 25 },
+        { "id": "mc_redstone", "weight": 15 },
+        { "id": "mc_iron_pickaxe", "weight": 2 }
+      ]
+    },
+    {
+      "id": "minecraft_crossing.mine_iron",
+      "entries": [
+        { "id": "mc_coal", "weight": 180 },
+        { "id": "mc_raw_copper", "weight": 160 },
+        { "id": "mc_raw_iron", "weight": 260 },
+        { "id": "mc_raw_gold", "weight": 100 },
+        { "id": "mc_copper_ingot", "weight": 100 },
+        { "id": "mc_lapis_lazuli", "weight": 75 },
+        { "id": "mc_redstone", "weight": 75 },
+        { "id": "mc_amethyst_shard", "weight": 40 },
+        { "id": "mc_emerald", "weight": 8 },
+        { "id": "mc_diamond", "weight": 2 },
+        { "id": "mc_diamond_pickaxe", "weight": 2 }
+      ]
+    },
+    {
+      "id": "minecraft_crossing.mine_diamond",
+      "entries": [
+        { "id": "mc_raw_iron", "weight": 120 },
+        { "id": "mc_raw_gold", "weight": 120 },
+        { "id": "mc_copper_ingot", "weight": 120 },
+        { "id": "mc_lapis_lazuli", "weight": 120 },
+        { "id": "mc_redstone", "weight": 120 },
+        { "id": "mc_amethyst_shard", "weight": 100 },
+        { "id": "mc_emerald", "weight": 40 },
+        { "id": "mc_diamond", "weight": 20 },
+        { "id": "mc_music_disc_13", "weight": 1 }
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "table": "junkTable",
+      "add": [
+        { "id": "mc_stone_pickaxe", "weight": 45 },
+        { "id": "mc_crafting_table", "weight": 1 }
+      ]
+    }
+  ]
+}

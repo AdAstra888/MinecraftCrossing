@@ -1,0 +1,25 @@
+# id,sprite,value_tier,width,height,game_types_separated_by_pipe
+mc_coal,coal,A,1,1,MATERIAL
+mc_charcoal,charcoal,A,1,1,MATERIAL
+mc_raw_copper,raw_copper,A,2,2,MATERIAL
+mc_raw_iron,raw_iron,B,2,2,MATERIAL
+mc_raw_gold,raw_gold,B,2,2,MATERIAL
+mc_copper_ingot,copper_ingot,B,2,2,MATERIAL
+mc_lapis_lazuli,lapis_lazuli,B,1,1,MATERIAL
+mc_redstone,redstone,B,1,1,MATERIAL
+mc_amethyst_shard,amethyst_shard,C,1,1,MATERIAL|LUXURY_ITEM
+mc_emerald,emerald,D,1,1,MATERIAL|LUXURY_ITEM
+mc_diamond,diamond,E,1,1,MATERIAL|LUXURY_ITEM
+mc_stone_pickaxe,stone_pickaxe,B,2,2,TOOL
+mc_iron_pickaxe,iron_pickaxe,C,2,2,TOOL
+mc_diamond_pickaxe,diamond_pickaxe,E,2,2,TOOL|LUXURY_ITEM
+mc_bread,bread,A,2,1,FOOD
+mc_music_disc_13,music_disc_13,D,2,1,LUXURY_ITEM|ART
+mc_cobblestone,cobblestone,A,2,2,MATERIAL
+mc_oak_planks,oak_planks,A,2,2,MATERIAL
+mc_stick,stick,A,1,1,MATERIAL
+mc_crafting_table,crafting_table,C,2,2,TOOL|MACHINE
+mc_storage_chest,storage_chest,C,2,2,HOUSEHOLD_GOOD|STORAGE
+mc_iron_ingot,iron_ingot,B,2,2,MATERIAL
+mc_gold_ingot,gold_ingot,B,2,2,MATERIAL
+mc_furnace,furnace,C,2,2,TOOL|MACHINE

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>minecraft_crossing</ID>
+  <Name>主世界来货</Name>
+  <Author>QY</Author>
+  <ModVersion>0.2.12</ModVersion>
+  <Description>Minecraft 原版村民顾客、物品、合成、储物、自动熔炼与主世界矿区。</Description>
+  <GameVersions>
+    <Version>0.46D</Version>
+  </GameVersions>
+  <Prerequisites />
+  <Assemblies>
+    <Assembly>MinecraftCrossing.dll</Assembly>
+  </Assemblies>
+  <Capabilities />
+</Manifest>

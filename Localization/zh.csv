@@ -1,0 +1,97 @@
+item_mc_coal_name,煤炭
+item_mc_coal_desc,主世界常见燃料。边缘粘着陌生的黑色粉尘。
+item_mc_charcoal_name,木炭
+item_mc_charcoal_desc,木头烧成的轻质燃料，气味和本地煤不一样。
+item_mc_raw_copper_name,粗铜
+item_mc_raw_copper_desc,未经熔炼的主世界矿物，表面留着方块状的断面。
+item_mc_raw_iron_name,粗铁
+item_mc_raw_iron_desc,尚未加工的铁矿。它与本地金属来源不同，暂不通用。
+item_mc_raw_gold_name,粗金
+item_mc_raw_gold_desc,未熔炼的金矿。主世界商队把它当作加工材料。
+item_mc_copper_ingot_name,铜锭
+item_mc_copper_ingot_desc,主世界熔炉加工出的铜。与本地库存独立计价。
+item_mc_lapis_lazuli_name,青金石
+item_mc_lapis_lazuli_desc,蓝色矿石粉末。主世界商队称它能给物品染色。
+item_mc_redstone_name,红石粉
+item_mc_redstone_desc,能传递微弱信号的红色粉末，适合卖给电工或收藏家。
+item_mc_amethyst_shard_name,紫水晶碎片
+item_mc_amethyst_shard_desc,敲击时会发出清脆回响的紫色晶体。
+item_mc_emerald_name,绿宝石
+item_mc_emerald_desc,主世界商队熟悉的交易宝石，本地市场尚未摸清行情。
+item_mc_diamond_name,钻石
+item_mc_diamond_desc,透明度极高的硬质晶体。跨界来源可能抬高它的收藏价值。
+item_mc_stone_pickaxe_name,石镐
+item_mc_stone_pickaxe_desc,简易开采工具。足以进入矿区，效率有限。
+item_mc_iron_pickaxe_name,铁镐
+item_mc_iron_pickaxe_desc,结实的开采工具，能更稳定地找到矿物。
+item_mc_diamond_pickaxe_name,钻石镐
+item_mc_diamond_pickaxe_desc,主世界的高级工具。矿区工人愿意为它支付高价。
+item_mc_bread_name,主世界面包
+item_mc_bread_desc,方块大陆常见主食，保留独立商品身份，也可作为动物饲料。
+item_mc_music_disc_13_name,13号唱片
+item_mc_music_disc_13_desc,表面刻有陌生的图案。播放内容或许值得收藏。
+afterhour_mines_title,主世界矿区
+afterhour_mines_locked,带上石镐、铁镐或钻石镐就能开采。第一把石镐可在垃圾场找到。
+afterhour_mines_desc,裂隙另一侧的矿坑。镐子越好，每晚可搜刮的次数越多。
+afterhour_mines_mine,搜刮矿脉
+afterhour_mines_remaining,当前镐子：{0}　｜　今晚剩余：{1}/{2}
+afterhour_mines_empty,今晚的矿脉已经搜过了。
+afterhour_mines_bag_full,夜间背包放不下这件物品。腾出空间后再试，本次未扣次数。
+afterhour_mines_unavailable,这次没能取得物资，本次未扣次数。
+item_mc_cobblestone_name,圆石
+item_mc_cobblestone_desc,方块大陆常见的粗糙石料，可用于基础工具合成。
+item_mc_oak_planks_name,橡木木板
+item_mc_oak_planks_desc,主世界橡木加工成的木板，可继续制作木棍。
+item_mc_stick_name,木棍
+item_mc_stick_desc,基础合成材料，可用作工具手柄。
+item_mc_crafting_table_name,工作台
+item_mc_crafting_table_desc,带有主世界配方的便携工作台，可制作木棍、镐子和熔炉。
+recipe_sticks_name,制作木棍
+recipe_sticks_desc,两块橡木木板可制作四根木棍。
+recipe_crafting_table_name,制作工作台
+recipe_crafting_table_desc,四块橡木木板可制作一张工作台。
+recipe_stone_pickaxe_name,制作石镐
+recipe_stone_pickaxe_desc,三块圆石和两根木棍可制作一把石镐。
+recipe_furnace_name,制作熔炉
+recipe_furnace_desc,八块圆石可制作一座熔炉。
+recipe_iron_pickaxe_name,制作铁镐
+recipe_iron_pickaxe_desc,三块主世界铁锭和两根木棍可制作一把铁镐。
+recipe_diamond_pickaxe_name,制作钻石镐
+recipe_diamond_pickaxe_desc,三颗钻石和两根木棍可制作一把钻石镐。
+item_mc_storage_chest_name,主世界储物箱
+item_mc_storage_chest_desc,免费提供的 27 格专属储物箱，可付费扩展至 54 格。
+item_mc_iron_ingot_name,铁锭
+item_mc_iron_ingot_desc,熔炉加工出的主世界铁锭，保持独立于当铺原有金属材料。
+item_mc_gold_ingot_name,金锭
+item_mc_gold_ingot_desc,熔炉加工出的主世界金锭，可作为独立交易品。
+item_mc_furnace_name,熔炉
+item_mc_furnace_desc,放入粗矿和燃料后自动熔炼。每块粗矿约需 10 秒；一份燃料燃烧 80 秒。
+furnace_title,主世界熔炉
+furnace_hint,放入粗铜、粗铁或粗金，以及煤炭或木炭。关闭窗口后也会继续燃烧。
+furnace_ore_slot,矿石
+furnace_fuel_slot,燃料
+furnace_output_slot,产物
+furnace_working,当前矿石进度：{0}/{1} 秒
+furnace_burn_time,燃料剩余：{0} 秒
+furnace_need_ore,请先放入粗铜、粗铁或粗金。
+furnace_need_fuel,热量已用完，请放入煤炭或木炭。
+furnace_output_full,请先取走产物，再继续熔炼。
+storage_chest_tier1,容量：27 格
+storage_chest_tier2,容量：54 格
+storage_chest_upgrade_button,扩容储物箱 — 500 信用点
+storage_chest_upgrade_desc,将储物箱从 27 格扩展到 54 格。
+stack_controls_hint,拖动可移动整组；按住 Shift 拖动一半，按住 Alt 拖动 1 个。
+direct_crafting_title,配方直接合成
+direct_crafting_button,配方合成
+direct_crafting_recipes,配方目录
+direct_crafting_details,配方详情
+direct_crafting_output,每次产出
+direct_crafting_output_count,{0} × {1}
+direct_crafting_materials,所需材料（持有 / 需要）
+direct_crafting_material_count,{0}　{1} / {2}
+direct_crafting_material_missing,还缺 {0} 件
+direct_crafting_make,开始合成
+direct_crafting_no_room,材料足够，但背包、搜刮包和储物箱都没有足够空间。
+enderman_customer_name,末影人
+enderman_customer_greeting,我从很远的地方带来了些东西。别问路怎么走。
+enderman_customer_offer,看看这些货吧。别直盯着我的眼睛。

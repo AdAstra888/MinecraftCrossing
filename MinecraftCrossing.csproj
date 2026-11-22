@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>MinecraftCrossing</AssemblyName>
+    <RootNamespace>MinecraftCrossing</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GameDir>D:\steam\steamapps\common\Probably Stolen</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameDir)\Probably Stolen_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameDir)\Probably Stolen_Data\Managed\UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameDir)\Probably Stolen_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(GameDir)\Probably Stolen_Data\Managed\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="manifest.xml" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="README.md" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Content\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Localization\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="LootTables\*.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Textures\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="StageMod" AfterTargets="Build" Condition="'$(StageDir)' != ''">
+    <ItemGroup>
+      <StageContent Include="$(OutputPath)Content\**\*" />
+      <StageLocalization Include="$(OutputPath)Localization\**\*" />
+      <StageLootTables Include="LootTables\*.json" />
+      <StageSprites Include="$(OutputPath)Textures\**\*" />
+    </ItemGroup>
+    <MakeDir Directories="$(StageDir);$(StageDir)\Content;$(StageDir)\Localization;$(StageDir)\Textures;$(StageDir)\Textures\Items" />
+    <Copy SourceFiles="$(OutputPath)MinecraftCrossing.dll;$(OutputPath)manifest.xml;$(OutputPath)README.md" DestinationFolder="$(StageDir)" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(StageContent)" DestinationFiles="@(StageContent->'$(StageDir)\Content\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(StageLocalization)" DestinationFiles="@(StageLocalization->'$(StageDir)\Localization\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(StageLootTables)" DestinationFolder="$(StageDir)\LootTables" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="@(StageSprites)" DestinationFiles="@(StageSprites->'$(StageDir)\Textures\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

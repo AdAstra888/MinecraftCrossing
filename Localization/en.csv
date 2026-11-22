@@ -1,0 +1,97 @@
+item_mc_coal_name,Coal
+item_mc_coal_desc,A common fuel from the block world, dusted with unfamiliar black grit.
+item_mc_charcoal_name,Charcoal
+item_mc_charcoal_desc,Lightweight fuel made from wood. It smells unlike local coal.
+item_mc_raw_copper_name,Raw Copper
+item_mc_raw_copper_desc,Unsmelted ore from the block world.
+item_mc_raw_iron_name,Raw Iron
+item_mc_raw_iron_desc,Unprocessed iron ore. Its origin differs from local metal stock.
+item_mc_raw_gold_name,Raw Gold
+item_mc_raw_gold_desc,Unsmelted gold ore traded as a processing material.
+item_mc_copper_ingot_name,Copper Ingot
+item_mc_copper_ingot_desc,Copper processed in a world-side furnace; priced separately from local stock.
+item_mc_lapis_lazuli_name,Lapis Lazuli
+item_mc_lapis_lazuli_desc,Blue mineral powder used to color objects in the block world.
+item_mc_redstone_name,Redstone Dust
+item_mc_redstone_desc,A red powder that carries a faint signal.
+item_mc_amethyst_shard_name,Amethyst Shard
+item_mc_amethyst_shard_desc,A violet crystal that rings when tapped.
+item_mc_emerald_name,Emerald
+item_mc_emerald_desc,A trade gem familiar to world-side merchants.
+item_mc_diamond_name,Diamond
+item_mc_diamond_desc,A remarkably hard clear crystal from beyond the rift.
+item_mc_stone_pickaxe_name,Stone Pickaxe
+item_mc_stone_pickaxe_desc,A simple mining tool. Enough to enter the mine, but not very efficient.
+item_mc_iron_pickaxe_name,Iron Pickaxe
+item_mc_iron_pickaxe_desc,A sturdy mining tool that finds ore more reliably.
+item_mc_diamond_pickaxe_name,Diamond Pickaxe
+item_mc_diamond_pickaxe_desc,A high-grade tool. The mine crews pay well for one.
+item_mc_bread_name,World Bread
+item_mc_bread_desc,A block-world staple that can also be used as animal feed.
+item_mc_music_disc_13_name,Music Disc 13
+item_mc_music_disc_13_desc,Marked with an unfamiliar pattern. Collectors may want to hear it.
+afterhour_mines_title,Overworld Mine
+afterhour_mines_locked,Bring a stone, iron, or diamond pickaxe. Look for your first stone pickaxe at the dumping ground.
+afterhour_mines_desc,A mine beyond the rift. Better pickaxes give you more searches each night.
+afterhour_mines_mine,Search the Vein
+afterhour_mines_remaining,Using {0} | Searches left: {1}/{2}
+afterhour_mines_empty,You have used up tonight's searches.
+afterhour_mines_bag_full,Your afterhours bag has no room for this item. Make space and try again; no search was used.
+afterhour_mines_unavailable,No item could be collected. No search was used.
+item_mc_cobblestone_name,Cobblestone
+item_mc_cobblestone_desc,A common rough stone from the block world, used for basic tool crafting.
+item_mc_oak_planks_name,Oak Planks
+item_mc_oak_planks_desc,Oak processed in the block world; used to make sticks.
+item_mc_stick_name,Stick
+item_mc_stick_desc,A basic crafting material used as a tool handle.
+item_mc_crafting_table_name,Crafting Table
+item_mc_crafting_table_desc,A portable table with block-world recipes for sticks, pickaxes, and furnaces.
+recipe_sticks_name,Craft Sticks
+recipe_sticks_desc,Two oak planks make four sticks.
+recipe_crafting_table_name,Craft a Crafting Table
+recipe_crafting_table_desc,Four oak planks make one crafting table.
+recipe_stone_pickaxe_name,Craft a Stone Pickaxe
+recipe_stone_pickaxe_desc,Three cobblestone and two sticks make one stone pickaxe.
+recipe_furnace_name,Craft a Furnace
+recipe_furnace_desc,Eight cobblestone make one furnace.
+recipe_iron_pickaxe_name,Craft an Iron Pickaxe
+recipe_iron_pickaxe_desc,Three block-world iron ingots and two sticks make one iron pickaxe.
+recipe_diamond_pickaxe_name,Craft a Diamond Pickaxe
+recipe_diamond_pickaxe_desc,Three diamonds and two sticks make one diamond pickaxe.
+item_mc_storage_chest_name,Minecraft Storage Chest
+item_mc_storage_chest_desc,A free personal 27-slot chest, expandable to 54 slots.
+item_mc_iron_ingot_name,Iron Ingot
+item_mc_iron_ingot_desc,An ingot smelted from block-world ore; kept separate from the store's existing metals.
+item_mc_gold_ingot_name,Gold Ingot
+item_mc_gold_ingot_desc,An ingot smelted from block-world ore and traded as its own material.
+item_mc_furnace_name,Furnace
+item_mc_furnace_desc,Automatically smelts raw ore in about 10 seconds each. Each fuel item burns for 80 seconds.
+furnace_title,Block-World Furnace
+furnace_hint,Load raw copper, iron, or gold and coal or charcoal. The furnace keeps burning when closed.
+furnace_ore_slot,Ore
+furnace_fuel_slot,Fuel
+furnace_output_slot,Output
+furnace_working,Current ore: {0}/{1} seconds
+furnace_burn_time,Fuel remaining: {0} seconds
+furnace_need_ore,Load raw copper, iron, or gold first.
+furnace_need_fuel,No heat remains. Add coal or charcoal.
+furnace_output_full,Collect the output to continue smelting.
+storage_chest_tier1,Storage: 27 slots
+storage_chest_tier2,Storage: 54 slots
+storage_chest_upgrade_button,Upgrade Storage — 500 credits
+storage_chest_upgrade_desc,Expand this chest from 27 slots to 54 slots.
+stack_controls_hint,Drag normally for the full stack; hold Shift for half or Alt for one item.
+direct_crafting_title,Recipe Crafting
+direct_crafting_button,Recipe Crafting
+direct_crafting_recipes,Recipe Book
+direct_crafting_details,Recipe Details
+direct_crafting_output,Output per craft
+direct_crafting_output_count,{0} × {1}
+direct_crafting_materials,Materials (owned / needed)
+direct_crafting_material_count,{0}  {1} / {2}
+direct_crafting_material_missing,Still need {0}
+direct_crafting_make,Craft Item
+direct_crafting_no_room,You have enough materials, but your inventory and storage have no room for the result.
+enderman_customer_name,Enderman
+enderman_customer_greeting,I brought some things from far away. Do not ask how I got here.
+enderman_customer_offer,Take a look at the goods. Just do not stare into my eyes.

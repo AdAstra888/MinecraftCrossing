@@ -1,0 +1,19 @@
+# Build output and intermediate files
+bin/
+obj/
+dist/
+
+# Local extracted Minecraft source textures and preview material
+tools/OriginalTextures/
+
+# Local game/developer files
+*.user
+*.suo
+*.userprefs
+.vs/
+.idea/
+
+# OS/editor files
+Thumbs.db
+Desktop.ini
+*.tmp
