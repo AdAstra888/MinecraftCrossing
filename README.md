@@ -45,6 +45,10 @@ Steam 创意工坊：<https://steamcommunity.com/sharedfiles/filedetails/?id=384
 
 打包前可在 PowerShell 运行 `.\tools\Validate-Content.ps1`，检查物品 ID、占格与贴图画布、中英文名称和说明、配方材料/产物、熔炼关系及矿区掉落引用。
 
+## 从源码构建
+
+需要 .NET SDK、Probably Stolen 0.46D 的本地安装文件和 Minecraft Java 1.20.1 客户端资源。项目文件中的 `GameDir` 默认指向 `D:\steam\steamapps\common\Probably Stolen`，构建前请按本机路径修改。运行 `dotnet build MinecraftCrossing.csproj -c Release`，再运行内容校验脚本。村民和末影人立绘的重建工具需要对应的 Minecraft 1.20.1 JAR 路径，工具会从本机 JAR 提取原版 UV 纹理。
+
 ## 内容扩展
 
 物品基础资料位于 `Content/items.csv`，格式为 `id,sprite,value_tier,width,height,game_types`。类型使用竖线分隔，并采用当铺原版类型，例如 `FOOD`、`MATERIAL`、`TOOL`、`LUXURY_ITEM`。普通顾客按这些类型挑选收购商品，Minecraft 物品因此可进入对应原版顾客的购买范围。新 ID 使用 `mc_` 前缀；贴图放在 `Textures/Items/<sprite>.png`。游戏每格为 16 像素，因此贴图画布应为 `width×16` 乘 `height×16`。完整图案应按比例放入画布，不裁剪、不拉伸。
